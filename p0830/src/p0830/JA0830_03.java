@@ -7,6 +7,7 @@ public class JA0830_03 {
 		int num1 = 550; //변수선언 타입을 설정하고 원하는 넘버 설정(num) / 변수와 메서드 이름의 첫 글자는 항상 소문자로 한다.
 		int num2 = 150; //변수는 선언한 후 값이 들어가야 함. 값이 들어가기전 사용시 에러
 		int temp = 0;
+		int temp2 = 0;
 		int company_intro;
 		int companyIntro;
 		System.out.println(temp);
