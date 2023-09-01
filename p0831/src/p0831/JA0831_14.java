@@ -12,7 +12,7 @@ public class JA0831_14 {
 				//오버플로우 발생으로 인한 -계산이 나옴
 				
 				int x = 1000000;
-						int y = 2000000;
+						int y = 1000000;
 						System.out.println(x*y); //long 
 						
 						long z = (long)x*y; //long*int,long*long = long 정상적으로 계산가능 21억 이상이 넘어갈경우
