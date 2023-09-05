@@ -25,25 +25,34 @@ public class J0904_11 {
 //	    	
 //	    	System.out.println("합이 200을 넘을때는  "+i+" 일 때 입니다.");
 //	    	
-	    	int sum = 0;
-	    	int i =0;
-	    	
-	    	for (i=1;i<=100;i++) {
-	    		sum+=i;
-	    		if(sum >= 200) {
-	    			break ;
-	    		}
-	    		System.out.println("1부터 100까지의 합: " + sum);
-	    		System.out.println("합이 200을 넘을 때의 값: " + i);
-	    		
-	    		
-	    	}
+//	    	int sum = 0;
+//	    	int i =0;
+//	    	
+//	    	for (i=1;i<=100;i++) {
+//	    		sum+=i;
+//	    		if(sum >= 200) {
+//	    			break ;
+//	    		}
+//	    		System.out.println("1부터 100까지의 합: " + sum);
+//	    		System.out.println("합이 200을 넘을 때의 값: " + i);
+//	    		
+//	    		
+//	    	}
 
 	    
-	    
+// 1부터 200까지의 숫자를 더하고 더한 출력값이 200을 넘는 시점을 계산하는 프로그램
 		
-		
-		
+//		int num = 1;
+//		int sum = 0;
+//		while (num <=200) {
+//			sum += num;
+//			num ++ ;
+//			if (sum >200) {
+//				System.out.println("1부터 " + (num - 1) + "까지 더한 값 : " + sum);
+//				break;
+//			}
+//		}
+//		
 		
 		
 		
